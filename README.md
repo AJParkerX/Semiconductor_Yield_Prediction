@@ -1,15 +1,15 @@
 
-# 📟 Semiconductor Yield Prediction using Sensor Signal Analysis
+# Semiconductor Yield Prediction using Sensor Signal Analysis
 
-### 🔬 Domain: Semiconductor Manufacturing Process
+###  Domain: Semiconductor Manufacturing Process
 
-### 📁 Dataset: `sensor-data.csv` (1567 samples × 591 features)
+###  Dataset: `sensor-data.csv` (1567 samples × 591 features)
 
-### 🎯 Objective: Classify Pass/Fail Yield & Identify Most Relevant Features
+###  Objective: Classify Pass/Fail Yield & Identify Most Relevant Features
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 In a modern semiconductor fabrication line, hundreds of sensors continuously monitor various process steps to ensure quality and efficiency. However, not every signal captured from these sensors is meaningful — some are irrelevant or simply noisy.
 
@@ -21,7 +21,7 @@ This project applies machine learning and feature selection techniques to:
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 * **File**: `sensor-data.csv`
 * **Rows**: 1567 production units (samples)
@@ -36,7 +36,7 @@ This project applies machine learning and feature selection techniques to:
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 1. Build a robust **binary classifier** (Pass vs. Fail) using sensor data.
 2. Apply **feature selection techniques** to filter out redundant/noisy signals.
@@ -46,7 +46,7 @@ This project applies machine learning and feature selection techniques to:
 
 ---
 
-## 🛠️ Techniques Used
+##  Techniques Used
 
 * Exploratory Data Analysis (EDA)
 * Feature Selection:
@@ -69,13 +69,13 @@ This project applies machine learning and feature selection techniques to:
 
 ---
 
-## 📈 Results Summary
+##  Results Summary
 
 Feature selection successfully removed unnecessary signals, reducing noise and improving overall model efficiency. To address the inherent class imbalance in the dataset, SMOTE (Synthetic Minority Over-sampling Technique) was applied, resulting in more balanced training and better generalization. Among the models evaluated, Random Forest outperformed others after thorough hyperparameter tuning, delivering the best combination of accuracy, robustness, and interpretability. The final trained model is now capable of reliably predicting semiconductor yield failures, providing valuable insights for process engineers and contributing to reduced production costs and improved throughput.
 
 ---
 
-## 💡 Key Learnings
+##  Key Learnings
 
 * High-dimensional sensor data often contains **redundant signals**.
 * **Feature selection not only improves performance** but also enhances **interpretability and efficiency**.
@@ -84,9 +84,9 @@ Feature selection successfully removed unnecessary signals, reducing noise and i
 ---
 
 
-## 👨‍🔬 Author
+##  Author
 
-**Jawad Parkar**
+**Abdul Jawad Parkar**
 
 
 ---
